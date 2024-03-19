@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body class="corpo">
+    <header class="cabeçalho">
+      <h1 class="titulo">Bem vindo ao jogo da <span>Criptografia</span></h1>
+    </header>
+
+    <main class="main">
+      <div class="mensagem">
+        <p class="texto-caixas">
+          Digite ou insira seu texto aqui:
+          <input type="text" class="resposta" id="textos" />
+        </p>
+      </div>
+
+      <div class="res">
+       
+      
+         <p class="texto-caixas" id="irepostas">Aguarde a criptografia... </p>
+         
+        
+      </div>
+    </main>
+    <section>
+      <div class="botoesDiv">
+        <input 
+          type="button"
+          value="CRIPTOGRAFAR"
+          class="botao"
+          onclick="crip()"
+        />
+        <input
+          type="button"
+          value="DESCRIPTOGRAFAR"
+          class="botao"
+          onclick="descip()"
+        />
+        <input
+          type="button"
+          value="COPIAR"
+          class="botao"
+          id="copi"
+          onclick="copiar()"
+        />
+      </div>
+    </section>
+    <script src="crip.js"></script>
+  </body>
+</html>

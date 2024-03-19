@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+:root {
+  --fonte: "Anta", sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+  background-image: radial-gradient(black, rgb(7, 17, 10));
+}
+span {
+  text-shadow: 6px 4px 20px green;
+  position: relative;
+}
+
+.cabeçalho {
+  text-align: center;
+  font-family: "Anta", sans-serif;
+  font-size: 2em;
+  position: relative;
+}
+.titulo {
+  position: relative;
+}
+.main {
+  display: flex;
+
+  gap: 50px;
+  position: relative;
+  margin: 8%;
+  align-items: center;
+  justify-content: center;
+}
+.texto-caixas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: var(--fonte);
+  font-size: 2em;
+  position: relative;
+}
+.resposta {
+  width: 600px;
+  flex-direction: row;
+  margin: auto;
+  height: 300px;
+  text-align: center;
+  border: 3px dashed white;
+  border-radius: 20px;
+  font-size: 1em;
+  background-color: transparent;
+  color: white;
+  position: relative;
+  margin-left: 50px;
+}
+.h2 {
+  text-align: center;
+  margin: 5% 5%;
+  font-family: var(--fonte);
+  font-size: 3em;
+  position: relative;
+  margin-right: 50px;
+}
+
+.botoesDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+}
+.botao {
+  width: 200px;
+  height: 50px;
+  font-family: var(--fonte);
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  position: relative;
+}
+body div.background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+body div.background video {
+  width: 100%;
+  height: 99%;
+  object-fit: cover;
+  object-position: center;
+}
